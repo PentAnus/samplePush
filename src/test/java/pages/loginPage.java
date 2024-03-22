@@ -19,6 +19,7 @@ public class loginPage {
 	
 	public void Username(String username) {
 		Uname.sendKeys(username);
+		System.out.println("UserName is entered"); 
 	}
 	public void Password(String pass) {
 		Upassword.sendKeys(pass);
